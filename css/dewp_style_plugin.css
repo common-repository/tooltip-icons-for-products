@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.tip-container { background-color: transparent; display:flex; justify-content: center; }
+.single-product .tip-container { justify-content: flex-start; }
+.tip-block { flex-grow:0; padding:10px 5px; text-align:center; }
+.tip-container .tip-block a { display:inline-block; width:100%; text-decoration:none; }
+.tip-container .tip-block a:focus { outline-color: transparent; }
+.tip-container .tip-block img { height: 1.125rem; vertical-align:middle; }
+.tip-container .tip-block p { margin: 0; font-size: 0.875rem; line-height:normal; }
+.tip-container .tip-block .tooltip { display: inline-block; }
+.tip-container .tip-block .tooltip .tooltiptext { visibility: hidden; width: fit-content; max-width: 200px; background-color: black; color: #fff; text-align: center; border-radius: 6px; margin: 0 5px; padding: 5px 10px; position: absolute; z-index: 999; }
+.tip-container .tip-block .tooltip:hover .tooltiptext { visibility: visible; }
